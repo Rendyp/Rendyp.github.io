@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+html,
+body {
+  /* background-color: white; */
+  background-image: url("assets/page1/layer 26.png");;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  height:100%;
+  width: 100%;
+}
+
+/* Start Floral */
+.floral-1{
+  max-width: 120%;
+  max-height: 120%;
+  position: relative;
+  margin-left: -20%;
+  animation: diving 6s ease-in-out infinite, diving-rotate 6s ease-in-out infinite;
+}
+
+.floral-2{
+  max-width: 140%;
+  max-height: 140%;
+  position: absolute;
+  top: 25%;
+  margin-left: -40%;
+  animation: diving-2 6s ease-in-out infinite, diving-rotate-2 6s ease-in-out infinite;
+}
+
+.floral-3{
+  max-width: 50%;
+  max-height: 50%;
+  top: 25%;
+  position: absolute;
+  margin-left: -40%;
+  animation: diving 12s ease-in-out infinite, diving-rotate 9s ease-in-out infinite;
+}
+
+.floral-4{
+  max-width: 60%;
+  max-height: 60%;
+  position: absolute;
+  top: 55%;
+  margin-left: -42%;
+  animation: diving 2s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+}
+
+.floral-5{
+  max-width: 70%;
+  max-height: 70%;
+  position: absolute;
+  top: 90%;
+  margin-left: -45%;
+  animation: diving-2 5s ease-in-out infinite, diving-rotate-2 10s ease-in-out infinite;
+}
+
+.floral-6{
+  max-width: 30%;
+  max-height: 30%;
+  position: absolute;
+  top: 60%;
+  margin-left: -25%;
+  animation: diving 12s ease-in-out infinite, diving-rotate 9s ease-in-out infinite;
+}
+
+.floral-7{
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  top: 40%;
+  margin-left: -5%;
+  animation: diving-7 6s ease-in-out infinite, diving-rotate 6s ease-in-out infinite, butterfly 6s ease-in-out infinite;
+}
+
+.floral-8{
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  top: 15%;
+  margin-left: -10%;
+  animation: diving 2s ease-in-out infinite, diving-rotate 2s ease-in-out infinite;
+}
+
+.floral-9{
+  max-width: 40%;
+  max-height: 40%;
+  position: absolute;
+  top: 130%;
+  margin-left: -17%;
+  animation: diving-2 5s ease-in-out infinite, diving-rotate-2 10s ease-in-out infinite;
+}
+
+.floral-10{
+  max-width: 170%;
+  max-height: 170%;
+  position: absolute;
+  top: 60%;
+  margin-left: -45%;
+  animation: diving-9 5s ease-in-out infinite;
+}
+
+.floral-11{
+  max-width: 60%;
+  max-height: 60%;
+  position: absolute;
+  top: 140%;
+  margin-left: -50%;
+  animation: diving-rotate 4s ease-in-out infinite;
+}
+
+.floral-12{
+  max-width: 60%;
+  max-height: 60%;
+  position: absolute;
+  top: 80%;
+  margin-left: -50%;
+  animation: diving-rotate 3s ease-in-out infinite;
+}
+
+.floral-13{
+  max-width: 20%;
+  max-height: 20%;
+  position: absolute;
+  top: 90%;
+  margin-left: -40%;
+  animation: diving-rotate 10s ease-in-out infinite;
+}
+
+.floral-14{
+  max-width: 150%;
+  max-height: 150%;
+  position: absolute;
+  Top  : 470%;
+  margin-left: -43%;
+  animation: diving-rotate 10s ease-in-out infinite;
+}
+
+.floral-15{
+  max-width: 150%;
+  max-height: 150%;
+  position: absolute;
+  Top  : 500%;
+  margin-left: -28%;
+  animation: diving-2 5s ease-in-out infinite, diving-rotate-2 10s ease-in-out infinite;
+}
+
+.floral-16{
+  max-width: 120%;
+  max-height: 120%;
+  position: absolute;
+  Top  : 550%;
+  margin-left: -45%;
+  animation: diving 2s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+}
+
+.floral-17{
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute;
+  Top  : 540%;
+  margin-left: -45%;
+  animation: diving-2 6s ease-in-out infinite, diving-rotate-2 6s ease-in-out infinite;
+}
+
+
+@keyframes diving {
+  0% {
+    margin-top: 15px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+
+@keyframes diving-rotate {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+  }
+  50% {
+    transform: rotate(3deg);
+    transform-origin: bottom left;
+  }
+  75% {
+    transform: rotate(-2deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes diving-2 {
+  0% {
+    margin-top: 15px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+
+@keyframes diving-rotate-2 {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+  }
+  25% {
+    transform: rotate(-2deg);
+    transform-origin: bottom left;
+  }
+
+  50% {
+    transform: rotate(-1deg);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: bottom left;
+  }
+}
+
+@keyframes diving-7 {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: -5px;
+  }
+  50% {
+    margin-top: -20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@keyframes butterfly {
+  0% {
+    transform: scale(1.0);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.0);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+@keyframes diving-9 {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+/* end floral */
+
+p.date {
+  font-family: 'Alex Brush', cursive;
+  font-size: 1.5rem;
+}
+
+h1.tittle {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+h2.name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5.5rem;
+}
+
+h3.name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+
+.btn-open {
+  background-color: #ea80a1;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 0 0 0 0 #eaa2b8;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #eaa2b8;
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px #fbdde8;
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 #eaa2b8;
+  }
+}
+
