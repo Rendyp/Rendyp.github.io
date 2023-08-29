@@ -17,120 +17,116 @@ section {
   width: 100%;
 }
 
+.board{
+  max-width: 50%;
+  max-height: 100%;
+  margin-top: -5%;
+  position: relative;
+}
+
 /* Start Floral */
 .floral-1{
-  max-width: 120%;
-  max-height: 120%;
-  position: relative;
+  max-width: 85%;
+  position: absolute;
+  padding-top: 0%;
   margin-left: -20%;
   animation: diving 6s ease-in-out infinite, diving-rotate 6s ease-in-out infinite;
 }
 
 .floral-2{
-  max-width: 140%;
-  max-height: 140%;
+  max-width: 50%;
   position: absolute;
-  top: 25%;
-  margin-left: -40%;
+  padding-top: 6%;
+  margin-left: -20%;
   animation: diving-2 6s ease-in-out infinite, diving-rotate-2 6s ease-in-out infinite;
 }
 
 .floral-3{
   max-width: 50%;
-  max-height: 50%;
-  top: 25%;
+  padding-top: 5%;
   position: absolute;
-  margin-left: -40%;
+  margin-left: -15%;
   animation: diving 12s ease-in-out infinite, diving-rotate 9s ease-in-out infinite;
 }
 
 .floral-4{
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 20%;
+  padding-top: 55%;
   position: absolute;
-  top: 55%;
-  margin-left: -42%;
+  margin-left: -3%;
   animation: diving 2s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
 }
 
 .floral-5{
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 60%;
+  padding-top: 75%;
   position: absolute;
-  top: 90%;
-  margin-left: -45%;
+  margin-left: -5%;
   animation: diving-2 5s ease-in-out infinite, diving-rotate-2 10s ease-in-out infinite;
 }
 
 .floral-6{
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 20%;
   position: absolute;
-  top: 60%;
-  margin-left: -25%;
+  padding-top: 32%;
+  margin-left: 18%;
   animation: diving 12s ease-in-out infinite, diving-rotate 9s ease-in-out infinite;
 }
 
 .floral-7{
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 7%;
   position: absolute;
-  top: 40%;
-  margin-left: -5%;
+  padding-top: 30%;
+  margin-left: 58%;
   animation: diving-7 6s ease-in-out infinite, diving-rotate 6s ease-in-out infinite, butterfly 6s ease-in-out infinite;
 }
 
 .floral-8{
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 40%;
   position: absolute;
-  top: 15%;
-  margin-left: -10%;
+  padding-top: 0%;
+  margin-top: -5%;
+  margin-left: 35%;
   animation: diving 2s ease-in-out infinite, diving-rotate 2s ease-in-out infinite;
 }
 
 .floral-9{
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 30%;
   position: absolute;
-  top: 130%;
-  margin-left: -17%;
+  padding-top: 100%;
+  margin-left: 35%;
   animation: diving-2 5s ease-in-out infinite, diving-rotate-2 10s ease-in-out infinite;
 }
 
 .floral-10{
-  max-width: 170%;
-  max-height: 170%;
+  max-width: 40%;
   position: absolute;
-  top: 60%;
-  margin-left: -45%;
+  padding-top: 50%;
+  margin-left: -12%;
   animation: diving-9 5s ease-in-out infinite;
 }
 
 .floral-11{
   max-width: 60%;
-  max-height: 60%;
   position: absolute;
-  top: 140%;
-  margin-left: -50%;
+  padding-top: 120%;
+  margin-left: -5%;
   animation: diving-rotate 4s ease-in-out infinite;
 }
 
 .floral-12{
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 30%;
   position: absolute;
-  top: 80%;
-  margin-left: -50%;
+  padding-top: 105%;
+  margin-left: 10%;
   animation: diving-rotate 3s ease-in-out infinite;
 }
 
 .floral-13{
   max-width: 20%;
-  max-height: 20%;
   position: absolute;
-  top: 90%;
-  margin-left: -40%;
+  padding-top: 125%;
+  margin-left: 10%;
   animation: diving-rotate 10s ease-in-out infinite;
 }
 
