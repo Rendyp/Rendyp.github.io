@@ -11,6 +11,10 @@ body {
   width: 100%;
   margin: 0;
   overflow: hidden;
+  max-width: 1024px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
@@ -28,7 +32,6 @@ section {
 .board{
   max-width: 50%;
   max-height: 50%;
-  margin-top: -5%;
   position: relative;
 }
 
@@ -90,11 +93,10 @@ section {
 }
 
 .floral-8{
-  max-width: 40%;
+  max-width: 50%;
   position: absolute;
   padding-top: 0%;
-  margin-top: -5%;
-  margin-left: 35%;
+  margin-left: -8%;
   animation: diving 2s ease-in-out infinite, diving-rotate 2s ease-in-out infinite;
 }
 
@@ -254,7 +256,7 @@ p.date {
 
 h1.tittle {
   font-family: 'Great Vibes', cursive;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 3.5rem;
 }
 
