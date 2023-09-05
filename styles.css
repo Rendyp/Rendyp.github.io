@@ -10,16 +10,15 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  overflow: hidden;
-  max-width: 1024px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 section {
+  max-width: 1024px;
   height:100%;
   width: 100%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .muka{
@@ -300,3 +299,70 @@ h3.name {
   }
 }
 
+.about-us {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+}
+
+.modal-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ea80a1;
+}
+
+.carousel-img {
+  object-fit: cover;
+  object-position: center center;
+  background-position: center;
+}
+
+.background-primary {
+  background-color: #ea80a1;
+}
+
+.background-timer {
+  background-color: #ea80a1;
+  width: 160px;
+  height: 160px;
+}
+
+.background-handshake {
+  background-color: #ea80a1;
+  width: 120px;
+  height: 120px;
+}
+
+.background-gray {
+  background-color: #f5f5f5;
+}
+
+.background-dark {
+  background-color: #2E2F3A;
+}
+
+.background-quote {
+  background-image: url("assets/bg1.png");
+  background-size: 80%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.container-map {
+  width: 100%;
+  max-width: 732px;
+}
+
+.h-15px {
+  height: 2px;
+}
+
+
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
