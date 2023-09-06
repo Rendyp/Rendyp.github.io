@@ -329,10 +329,11 @@ h3.name {
   height: 160px;
 }
 
-.background-handshake {
-  background-color: #ea80a1;
+.background-wedding {
+  background-color: white;
   width: 120px;
   height: 120px;
+  /* border: 1px solid #ea80a1; */
 }
 
 .background-gray {
@@ -350,6 +351,14 @@ h3.name {
   background-repeat: no-repeat;
 }
 
+.background-about {
+  background-image: url("assets/flower_white.png");
+  background-size: 50%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  animation: diving 4s ease-in-out infinite, diving-rotate 4s ease-in-out infinite;
+}
+
 .container-map {
   width: 100%;
   max-width: 732px;
@@ -358,8 +367,6 @@ h3.name {
 .h-15px {
   height: 2px;
 }
-
-
 
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
