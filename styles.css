@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+  font-family: "mitha_mella";
+  src: url("/fonts/MithaMellaRegular.ttf");
+}
+
 html,
 body {
   /* background-color: white; */
@@ -306,6 +312,13 @@ h3.name {
   color: black;
 }
 
+.mempelai {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+}
+
 .modal-title {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -356,7 +369,7 @@ h3.name {
   background-size: 50%;
   background-position: bottom right;
   background-repeat: no-repeat;
-  animation: diving 4s ease-in-out infinite, diving-rotate 4s ease-in-out infinite;
+  animation: diving 8s ease-in-out infinite, diving-rotate 8s ease-in-out infinite;
 }
 
 .container-map {
