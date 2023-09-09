@@ -10,7 +10,7 @@
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="icon" type="image/x-icon" href="assets/rd.jpeg">
   <title>Pernikahan Rendy & Dyah</title>
-  <meta name="description" content="Tatkala sebuah janji yang terucap, maka Allah-lah yang menjadi saksi diantara kedua janji tersebut. Maha suci Allah SAW, yang telah menjadikan segala sesuatu jadi lebih indah dan sempurna.">
+  <meta name="description" content="21 Okrober 2023, 19.00 WIB ~ 21.00 WIB">
 
 </head>
 <body>
@@ -74,7 +74,7 @@
     <div id="separator" class="w-100 h-15px d-none">
     </div>
     
-    <article id="about" class="container background-primary background-about vw-100 py-5 d-none">
+    <article id="about" class="container background-primary vw-100 py-5 d-none">
       <p class="text-center text-white fs-1">
         ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ
       </p>
@@ -110,7 +110,7 @@
             Ibu Pipin Hasanah
           </p>
         </div>
-        <p data-aos="zoom-in" data-aos-duration="2000" class="and mb-0 about-us text-white">.</p>
+        <!-- <p data-aos="zoom-in" data-aos-duration="2000" class="and mb-0 about-us text-white">.</p> -->
         <div data-aos="fade-left" data-aos-duration="2000"
           class="d-flex flex-column align-items-center rounded-3 p-3">
           <!-- <img src="assets/dyah.gif" alt="dyah" width="300" height="auto"> -->
@@ -309,7 +309,7 @@
           <div>
             <div class="d-flex align-items-center gap-2">
               <p class="mb-0">
-                0953646550
+                095 364 6550
               </p>
               <i onclick="copyBca()" class="bx bxs-copy-alt mt-2 h4" style="cursor: pointer;"></i>
             </div>
@@ -319,21 +319,21 @@
           </div>
         </div>
 
-        <!-- <div class="d-flex flex-wrap items-center justify-content-center gap-4">
-          <img src="img/bni.png" alt="bni" width="200" height="65">
+        <div class="d-flex flex-wrap items-center justify-content-center gap-4">
+          <img src="assets/bni.png" alt="bni" width="200" height="65">
 
           <div>
             <div class="d-flex align-items-center gap-2">
               <p class="mb-0">
-                120 822 4532
+                043 764 9266 
               </p>
               <i onclick="copyBni()" class="bx bxs-copy-alt mt-2 h4" style="cursor: pointer;"></i>
             </div>
             <p>
-              a.n Geofany Galindra
+              a.n Dyah Khoirotunnisa
             </p>
           </div>
-        </div> -->
+        </div>
 <!-- 
         <a href="https://wa.me/+6281289388441" rel="nofollow noopener noreferrer" target="_blank"
           class="btn-map d-flex align-items-center justify-content-center gap-1 transition" style="text-decoration: none;">
@@ -429,18 +429,19 @@
         });
       }
 
-      // function copyBni() {
-      //   navigator.clipboard.writeText("1208224532")
-      //   .then(() => {
-      //     alert("Berhasil Menyalin Nomor Rekening BNI");
-      //   })
-      //   .catch(() => {
-      //     alert("Terjadi Kesalahan, Tidak Dapat Menyanil Nomor Rekening");
-      //   });
-      // }
-
+      function copyBni() {
+        navigator.clipboard.writeText("0437649266")
+        .then(() => {
+          alert("Berhasil Menyalin Nomor Rekening BNI");
+        })
+        .catch(() => {
+          alert("Terjadi Kesalahan, Tidak Dapat Menyanil Nomor Rekening");
+        });
+      }
+      </script>
+      <script>
       const to = new URLSearchParams(window.location.search);
-      var kepada = document.getElementById("kepada");
+      var kepada = document.getElementById("person");
       kepada.textContent = to.get('to');;
     </script>
 </body>
