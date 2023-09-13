@@ -14,6 +14,9 @@
 
 </head>
 <body>
+  <audio id="songs" controls autoplay loop class="d-none">
+    <source src="assets/song.mp3" type="audio/mpeg">
+  </audio>
     <section class="muka overflow-hidden">
       <article class="position-relative muka">
         <div
@@ -414,6 +417,7 @@
             once: true
           }
         );
+        document.getElementById("songs").play();
         separator.scrollIntoView();
       });
     </script>
