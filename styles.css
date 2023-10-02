@@ -9,7 +9,7 @@
 html,
 body {
   /* background-color: white; */
-  /* background-image: url("https://rendyp.github.io/assets/page1/Layer 26.webp");
+  /* background-image: url("https://rendyp.github.io/assets/page1/Layer 26.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
@@ -28,7 +28,7 @@ section {
 }
 
 .muka{
-  background-image: url("https://rendyp.github.io/assets/page1/Layer 26.png");
+  background-image: url("https://rendyp.github.io/assets/page1/Layer 26.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
