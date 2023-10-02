@@ -150,7 +150,7 @@ section {
     margin-top: 15px;
   }
   50% {
-    margin-top: 15px;
+    margin-top: 25px;
   }
   100% {
     margin-top: 15px;
@@ -163,7 +163,7 @@ section {
     transform-origin: bottom left;
   }
   50% {
-    transform: rotate(3deg);
+    transform: rotate(5deg);
     transform-origin: bottom left;
   }
   75% {
@@ -181,7 +181,7 @@ section {
     margin-top: 15px;
   }
   50% {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   100% {
     margin-top: 15px;
@@ -194,12 +194,12 @@ section {
     transform-origin: bottom left;
   }
   25% {
-    transform: rotate(-2deg);
+    transform: rotate(-6deg);
     transform-origin: bottom left;
   }
 
   50% {
-    transform: rotate(-1deg);
+    transform: rotate(-2deg);
     transform-origin: bottom left;
   }
   100% {
@@ -246,7 +246,7 @@ section {
     margin-top: 0px;
   }
   50% {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   100% {
     margin-top: 0px;
