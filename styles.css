@@ -288,6 +288,13 @@ h3.name {
   animation: pulse 1.5s infinite;
 }
 
+.text-pink{
+  color: #ea80a1;
+  mix-blend-mode: multiply;
+  text-shadow: 0.5px 0.5px white;
+}
+
+
 @keyframes pulse {
   0% {
     transform: scale(0.9);
@@ -316,7 +323,6 @@ h3.name {
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
   font-weight: 500;
-  color: white;
 }
 
 .modal-title {
@@ -334,6 +340,12 @@ h3.name {
 
 .background-primary {
   background-color: #ea80a1;
+}
+
+.background-floral{
+  background-image: url("assets/bg4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-timer {
