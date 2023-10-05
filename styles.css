@@ -290,7 +290,6 @@ h3.name {
 
 .text-pink{
   color: #ea80a1;
-  mix-blend-mode: multiply;
   text-shadow: 0.5px 0.5px white;
 }
 
@@ -339,14 +338,14 @@ h3.name {
 }
 
 .background-primary {
-  background-color: #ea80a1;
+  background-color: white;
 }
 
-.background-floral{
+/* .background-floral{
   background-image: url("assets/bg4.webp");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .background-timer {
   background-color: #ea80a1;
